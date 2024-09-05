@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Landing</title>
+  <link rel="shortcut icon" href="img/logo.svg" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="wrapper">
+    <nav class="navbar">
+      <a href="#" class="logo header__logo">
+        <img src="img/logo.svg" class="logo__logo" alt="007 pavanmg">
+      </a>
+      <section class="navbar__links" id="navbar">
+        <ul class="navbar__tabs">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#stack">Tech Stack</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contacts">Contact</a></li>
+        </ul>
+        <ul class="navbar__socials">
+          <li><a href="#" target="_blank">
+            <svg viewBox="0 0 20 20" width="30px" height="30px" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10 0c5.52 0 10 4.59 10 10.25 0 4.53-2.86 8.37-6.83 9.73-.51.1-.69-.22-.69-.5l.01-2.8c0-.96-.32-1.58-.68-1.9 2.23-.26 4.57-1.12 4.57-5.06 0-1.12-.39-2.04-1.03-2.75.1-.26.45-1.3-.1-2.72 0 0-.84-.27-2.75 1.05a9.4 9.4 0 0 0-5 0C5.59 3.98 4.75 4.25 4.75 4.25a3.78 3.78 0 0 0-.1 2.72 4.03 4.03 0 0 0-1.03 2.75c0 3.93 2.33 4.8 4.55 5.06-.28.26-.54.71-.63 1.38-.57.26-2.02.71-2.91-.86 0 0-.53-.98-1.53-1.05 0 0-.98-.02-.07.62 0 0 .65.32 1.1 1.5 0 0 .6 1.83 3.38 1.21l.01 1.9c0 .28-.18.6-.68.5A10.23 10.23 0 0 1 0 10.25C0 4.6 4.48 0 10 0" fill-rule="evenodd"/>
+            </svg>
+          </a>
+        </li>
+          <li>
+            <a href="#" target="_blank">
+              <svg width="30px" height="30px" xmlns="http://www.w3.org/2000/svg" viewBox="-143 145 512 512" xml:space="preserve">
+                <path d="M113 145c-141.4 0-256 114.6-256 256s114.6 256 256 256 256-114.6 256-256-114.6-256-256-256zm102.2 216.2c.1 2.2.1 4.5.1 6.8 0 69.5-52.9 149.7-149.7 149.7-29.7 0-57.4-8.7-80.6-23.6 4.1.5 8.3.7 12.6.7 24.6 0 47.3-8.4 65.3-22.5-23-.4-42.5-15.6-49.1-36.5 3.2.6 6.5.9 9.9.9 4.8 0 9.5-.6 13.9-1.9-24.1-4.8-42.2-26.1-42.2-51.6v-.6c7.1 3.9 15.2 6.3 23.8 6.6-14.1-9.4-23.4-25.6-23.4-43.8 0-9.6 2.6-18.7 7.1-26.5 26 31.9 64.7 52.8 108.4 55-.9-3.8-1.4-7.8-1.4-12 0-29 23.6-52.6 52.6-52.6 15.1 0 28.8 6.4 38.4 16.6 12-2.4 23.2-6.7 33.4-12.8-3.9 12.3-12.3 22.6-23.1 29.1 10.6-1.3 20.8-4.1 30.2-8.3-7 10.6-15.9 19.8-26.2 27.3z"/>
+              </svg>
+            </a>
+          </li>
+          <li><a href="#" target="_blank">
+            <svg width="30px" height="30px" xmlns="http://www.w3.org/2000/svg" viewBox="-143 145 512 512" xml:space="preserve">
+              <path d="M113 145c-141.4 0-256 114.6-256 256s114.6 256 256 256 256-114.6 256-256-114.6-256-256-256zM41.4 508.1H-8.5V348.4h49.9v159.7zM15.1 328.4h-.4c-18.1 0-29.8-12.2-29.8-27.7 0-15.8 12.1-27.7 30.5-27.7s29.7 11.9 30.1 27.7c.1 15.4-11.6 27.7-30.4 27.7zM241 508.1h-56.6v-82.6c0-21.6-8.8-36.4-28.3-36.4-14.9 0-23.2 10-27 19.6-1.4 3.4-1.2 8.2-1.2 13.1v86.3H71.8s.7-146.4 0-159.7h56.1v25.1c3.3-11 21.2-26.6 49.8-26.6 35.5 0 63.3 23 63.3 72.4v88.8z"/>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <button class="navbar__menu" onclick="onMenu()">≡</button>
+  </nav>
+  <header>
+      <div id="about" class="about">
+        <section class="about__intro">
+          <h1 class="intro">Hi 👋,<br>
+            My name is<br><span class="intro_gradient">Pavan MG</span><br>
+            I build things for web</h1>
+        </section>
+        <img src="img/avatar.png" alt="Avatar" class="about__avatar">
+      </div>
+    </header>
+    <main>
+      <div class="stack" id="stack">
+        <h2 class="stack__header">My Tech Stack</h2>
+        <p class="stack__desc">Technologies I’ve been working with recently</p>
+        <section class="stack__stack">
+          <img src="img/stack/html.svg" alt="html">
+          <img src="img/stack/css.svg" alt="css">
+          <img src="img/stack/js.svg" alt="js">
+          <img src="img/stack/react.svg" alt="react">
+          <img src="img/stack/redux.svg" alt="redux">
+          <img src="img/stack/bootstrap.svg" alt="bootstrap">
+          <img src="img/stack/tailwind.svg" alt="tailwind">
+          <img src="img/stack/sass.svg" alt="sass">
+          <img src="img/stack/git.svg" alt="git">
+          <img src="img/stack/greensock.svg" alt="greensock">
+          <img src="img/stack/code.svg" alt="vscode">
+          <img src="img/stack/github.svg" alt="github">
+        </section>
+      </div>
+      <div class="projects" id="projects">
+        <h2 class="projects__header">Projects</h2>
+        <p class="projects__desc">Things I’ve built so far</p>
+        <section class="projects__card">
+          <div class="card">
+            <img src="img/cards/preview1.png" class="card__preview">
+            <div class="card__info">
+              <h4 class="card__title">Project Tile goes here</h4>
+              <p class="card__desc">This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
+              <p class="card__stack">Tech stack : <span>HTML , JavaScript, SASS, React</span></p>
+              <ul class="card__links">
+                <li class="card__link">
+                  <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g fill="#1C274C">
+                      <path d="M15.729 3.884c1.434-1.44 3.532-1.47 4.693-.304 1.164 1.168 1.133 3.28-.303 4.72l-2.423 2.433a.75.75 0 0 0 1.062 1.059l2.424-2.433c1.911-1.919 2.151-4.982.303-6.838-1.85-1.857-4.907-1.615-6.82.304L9.819 7.692c-1.911 1.919-2.151 4.982-.303 6.837a.75.75 0 1 0 1.063-1.058c-1.164-1.168-1.132-3.28.303-4.72l4.848-4.867Z"/><path d="M14.485 9.47a.75.75 0 0 0-1.063 1.06c1.164 1.168 1.133 3.279-.303 4.72l-4.847 4.866c-1.435 1.44-3.533 1.47-4.694.304-1.164-1.168-1.132-3.28.303-4.72l2.424-2.433a.75.75 0 0 0-1.063-1.059l-2.424 2.433c-1.911 1.92-2.151 4.982-.303 6.838 1.85 1.858 4.907 1.615 6.82-.304l4.847-4.867c1.911-1.918 2.151-4.982.303-6.837Z"/>
+                    </g>
+                  </svg>
+                  <a href="#" target="_blank">Live Preview</a></li>
+                <li class="card__link">
+                  <svg viewBox="0 0 20 20" width="20px" height="20px" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10 0c5.52 0 10 4.59 10 10.25 0 4.53-2.86 8.37-6.83 9.73-.51.1-.69-.22-.69-.5l.01-2.8c0-.96-.32-1.58-.68-1.9 2.23-.26 4.57-1.12 4.57-5.06 0-1.12-.39-2.04-1.03-2.75.1-.26.45-1.3-.1-2.72 0 0-.84-.27-2.75 1.05a9.4 9.4 0 0 0-5 0C5.59 3.98 4.75 4.25 4.75 4.25a3.78 3.78 0 0 0-.1 2.72 4.03 4.03 0 0 0-1.03 2.75c0 3.93 2.33 4.8 4.55 5.06-.28.26-.54.71-.63 1.38-.57.26-2.02.71-2.91-.86 0 0-.53-.98-1.53-1.05 0 0-.98-.02-.07.62 0 0 .65.32 1.1 1.5 0 0 .6 1.83 3.38 1.21l.01 1.9c0 .28-.18.6-.68.5A10.23 10.23 0 0 1 0 10.25C0 4.6 4.48 0 10 0" fill="#000" fill-rule="evenodd"/>
+                    </svg>
+                  <a href="#" target="_blank">View Code</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/cards/preview2.png" class="card__preview">
+            <div class="card__info">
+              <h4 class="card__title">Project Tile goes here</h4>
+              <p class="card__desc">This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
+              <p class="card__stack">Tech stack : <span>HTML , JavaScript, SASS, React</span></p>
+              <ul class="card__links">
+                <li class="card__link">
+                  <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g fill="#1C274C">
+                      <path d="M15.729 3.884c1.434-1.44 3.532-1.47 4.693-.304 1.164 1.168 1.133 3.28-.303 4.72l-2.423 2.433a.75.75 0 0 0 1.062 1.059l2.424-2.433c1.911-1.919 2.151-4.982.303-6.838-1.85-1.857-4.907-1.615-6.82.304L9.819 7.692c-1.911 1.919-2.151 4.982-.303 6.837a.75.75 0 1 0 1.063-1.058c-1.164-1.168-1.132-3.28.303-4.72l4.848-4.867Z"/><path d="M14.485 9.47a.75.75 0 0 0-1.063 1.06c1.164 1.168 1.133 3.279-.303 4.72l-4.847 4.866c-1.435 1.44-3.533 1.47-4.694.304-1.164-1.168-1.132-3.28.303-4.72l2.424-2.433a.75.75 0 0 0-1.063-1.059l-2.424 2.433c-1.911 1.92-2.151 4.982-.303 6.838 1.85 1.858 4.907 1.615 6.82-.304l4.847-4.867c1.911-1.918 2.151-4.982.303-6.837Z"/>
+                    </g>
+                  </svg>
+                  <a href="#" target="_blank">Live Preview</a></li>
+                <li class="card__link">
+                  <svg viewBox="0 0 20 20" width="20px" height="20px" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10 0c5.52 0 10 4.59 10 10.25 0 4.53-2.86 8.37-6.83 9.73-.51.1-.69-.22-.69-.5l.01-2.8c0-.96-.32-1.58-.68-1.9 2.23-.26 4.57-1.12 4.57-5.06 0-1.12-.39-2.04-1.03-2.75.1-.26.45-1.3-.1-2.72 0 0-.84-.27-2.75 1.05a9.4 9.4 0 0 0-5 0C5.59 3.98 4.75 4.25 4.75 4.25a3.78 3.78 0 0 0-.1 2.72 4.03 4.03 0 0 0-1.03 2.75c0 3.93 2.33 4.8 4.55 5.06-.28.26-.54.71-.63 1.38-.57.26-2.02.71-2.91-.86 0 0-.53-.98-1.53-1.05 0 0-.98-.02-.07.62 0 0 .65.32 1.1 1.5 0 0 .6 1.83 3.38 1.21l.01 1.9c0 .28-.18.6-.68.5A10.23 10.23 0 0 1 0 10.25C0 4.6 4.48 0 10 0" fill="#000" fill-rule="evenodd"/>
+                    </svg>
+                  <a href="#" target="_blank">View Code</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/cards/preview3.png" class="card__preview">
+            <div class="card__info">
+              <h4 class="card__title">Project Tile goes here</h4>
+              <p class="card__desc">This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
+              <p class="card__stack">Tech stack : <span>HTML , JavaScript, SASS, React</span></p>
+              <ul class="card__links">
+                <li class="card__link">
+                  <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g fill="#1C274C">
+                      <path d="M15.729 3.884c1.434-1.44 3.532-1.47 4.693-.304 1.164 1.168 1.133 3.28-.303 4.72l-2.423 2.433a.75.75 0 0 0 1.062 1.059l2.424-2.433c1.911-1.919 2.151-4.982.303-6.838-1.85-1.857-4.907-1.615-6.82.304L9.819 7.692c-1.911 1.919-2.151 4.982-.303 6.837a.75.75 0 1 0 1.063-1.058c-1.164-1.168-1.132-3.28.303-4.72l4.848-4.867Z"/><path d="M14.485 9.47a.75.75 0 0 0-1.063 1.06c1.164 1.168 1.133 3.279-.303 4.72l-4.847 4.866c-1.435 1.44-3.533 1.47-4.694.304-1.164-1.168-1.132-3.28.303-4.72l2.424-2.433a.75.75 0 0 0-1.063-1.059l-2.424 2.433c-1.911 1.92-2.151 4.982-.303 6.838 1.85 1.858 4.907 1.615 6.82-.304l4.847-4.867c1.911-1.918 2.151-4.982.303-6.837Z"/>
+                    </g>
+                  </svg>
+                  <a href="#" target="_blank">Live Preview</a></li>
+                <li class="card__link">
+                  <svg viewBox="0 0 20 20" width="20px" height="20px" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10 0c5.52 0 10 4.59 10 10.25 0 4.53-2.86 8.37-6.83 9.73-.51.1-.69-.22-.69-.5l.01-2.8c0-.96-.32-1.58-.68-1.9 2.23-.26 4.57-1.12 4.57-5.06 0-1.12-.39-2.04-1.03-2.75.1-.26.45-1.3-.1-2.72 0 0-.84-.27-2.75 1.05a9.4 9.4 0 0 0-5 0C5.59 3.98 4.75 4.25 4.75 4.25a3.78 3.78 0 0 0-.1 2.72 4.03 4.03 0 0 0-1.03 2.75c0 3.93 2.33 4.8 4.55 5.06-.28.26-.54.71-.63 1.38-.57.26-2.02.71-2.91-.86 0 0-.53-.98-1.53-1.05 0 0-.98-.02-.07.62 0 0 .65.32 1.1 1.5 0 0 .6 1.83 3.38 1.21l.01 1.9c0 .28-.18.6-.68.5A10.23 10.23 0 0 1 0 10.25C0 4.6 4.48 0 10 0" fill="#000" fill-rule="evenodd"/>
+                    </svg>
+                  <a href="#" target="_blank">View Code</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/cards/preview4.png" class="card__preview">
+            <div class="card__info">
+              <h4 class="card__title">Project Tile goes here</h4>
+              <p class="card__desc">This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
+              <p class="card__stack">Tech stack : <span>HTML , JavaScript, SASS, React</span></p>
+              <ul class="card__links">
+                <li class="card__link">
+                  <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g fill="#1C274C">
+                      <path d="M15.729 3.884c1.434-1.44 3.532-1.47 4.693-.304 1.164 1.168 1.133 3.28-.303 4.72l-2.423 2.433a.75.75 0 0 0 1.062 1.059l2.424-2.433c1.911-1.919 2.151-4.982.303-6.838-1.85-1.857-4.907-1.615-6.82.304L9.819 7.692c-1.911 1.919-2.151 4.982-.303 6.837a.75.75 0 1 0 1.063-1.058c-1.164-1.168-1.132-3.28.303-4.72l4.848-4.867Z"/><path d="M14.485 9.47a.75.75 0 0 0-1.063 1.06c1.164 1.168 1.133 3.279-.303 4.72l-4.847 4.866c-1.435 1.44-3.533 1.47-4.694.304-1.164-1.168-1.132-3.28.303-4.72l2.424-2.433a.75.75 0 0 0-1.063-1.059l-2.424 2.433c-1.911 1.92-2.151 4.982-.303 6.838 1.85 1.858 4.907 1.615 6.82-.304l4.847-4.867c1.911-1.918 2.151-4.982.303-6.837Z"/>
+                    </g>
+                  </svg>
+                  <a href="#" target="_blank">Live Preview</a></li>
+                <li class="card__link">
+                  <svg viewBox="0 0 20 20" width="20px" height="20px" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10 0c5.52 0 10 4.59 10 10.25 0 4.53-2.86 8.37-6.83 9.73-.51.1-.69-.22-.69-.5l.01-2.8c0-.96-.32-1.58-.68-1.9 2.23-.26 4.57-1.12 4.57-5.06 0-1.12-.39-2.04-1.03-2.75.1-.26.45-1.3-.1-2.72 0 0-.84-.27-2.75 1.05a9.4 9.4 0 0 0-5 0C5.59 3.98 4.75 4.25 4.75 4.25a3.78 3.78 0 0 0-.1 2.72 4.03 4.03 0 0 0-1.03 2.75c0 3.93 2.33 4.8 4.55 5.06-.28.26-.54.71-.63 1.38-.57.26-2.02.71-2.91-.86 0 0-.53-.98-1.53-1.05 0 0-.98-.02-.07.62 0 0 .65.32 1.1 1.5 0 0 .6 1.83 3.38 1.21l.01 1.9c0 .28-.18.6-.68.5A10.23 10.23 0 0 1 0 10.25C0 4.6 4.48 0 10 0" fill="#000" fill-rule="evenodd"/>
+                    </svg>
+                  <a href="#" target="_blank">View Code</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/cards/preview5.png" class="card__preview">
+            <div class="card__info">
+              <h4 class="card__title">Project Tile goes here</h4>
+              <p class="card__desc">This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
+              <p class="card__stack">Tech stack : <span>HTML , JavaScript, SASS, React</span></p>
+              <ul class="card__links">
+                <li class="card__link">
+                  <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g fill="#1C274C">
+                      <path d="M15.729 3.884c1.434-1.44 3.532-1.47 4.693-.304 1.164 1.168 1.133 3.28-.303 4.72l-2.423 2.433a.75.75 0 0 0 1.062 1.059l2.424-2.433c1.911-1.919 2.151-4.982.303-6.838-1.85-1.857-4.907-1.615-6.82.304L9.819 7.692c-1.911 1.919-2.151 4.982-.303 6.837a.75.75 0 1 0 1.063-1.058c-1.164-1.168-1.132-3.28.303-4.72l4.848-4.867Z"/><path d="M14.485 9.47a.75.75 0 0 0-1.063 1.06c1.164 1.168 1.133 3.279-.303 4.72l-4.847 4.866c-1.435 1.44-3.533 1.47-4.694.304-1.164-1.168-1.132-3.28.303-4.72l2.424-2.433a.75.75 0 0 0-1.063-1.059l-2.424 2.433c-1.911 1.92-2.151 4.982-.303 6.838 1.85 1.858 4.907 1.615 6.82-.304l4.847-4.867c1.911-1.918 2.151-4.982.303-6.837Z"/>
+                    </g>
+                  </svg>
+                  <a href="#" target="_blank">Live Preview</a></li>
+                <li class="card__link">
+                  <svg viewBox="0 0 20 20" width="20px" height="20px" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10 0c5.52 0 10 4.59 10 10.25 0 4.53-2.86 8.37-6.83 9.73-.51.1-.69-.22-.69-.5l.01-2.8c0-.96-.32-1.58-.68-1.9 2.23-.26 4.57-1.12 4.57-5.06 0-1.12-.39-2.04-1.03-2.75.1-.26.45-1.3-.1-2.72 0 0-.84-.27-2.75 1.05a9.4 9.4 0 0 0-5 0C5.59 3.98 4.75 4.25 4.75 4.25a3.78 3.78 0 0 0-.1 2.72 4.03 4.03 0 0 0-1.03 2.75c0 3.93 2.33 4.8 4.55 5.06-.28.26-.54.71-.63 1.38-.57.26-2.02.71-2.91-.86 0 0-.53-.98-1.53-1.05 0 0-.98-.02-.07.62 0 0 .65.32 1.1 1.5 0 0 .6 1.83 3.38 1.21l.01 1.9c0 .28-.18.6-.68.5A10.23 10.23 0 0 1 0 10.25C0 4.6 4.48 0 10 0" fill="#000" fill-rule="evenodd"/>
+                    </svg>
+                  <a href="#" target="_blank">View Code</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/cards/preview6.png" class="card__preview">
+            <div class="card__info">
+              <h4 class="card__title">Project Tile goes here</h4>
+              <p class="card__desc">This is sample project description random things are here in description This is sample project lorem ipsum generator for dummy content</p>
+              <p class="card__stack">Tech stack : <span>HTML , JavaScript, SASS, React</span></p>
+              <ul class="card__links">
+                <li class="card__link">
+                  <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g fill="#1C274C">
+                      <path d="M15.729 3.884c1.434-1.44 3.532-1.47 4.693-.304 1.164 1.168 1.133 3.28-.303 4.72l-2.423 2.433a.75.75 0 0 0 1.062 1.059l2.424-2.433c1.911-1.919 2.151-4.982.303-6.838-1.85-1.857-4.907-1.615-6.82.304L9.819 7.692c-1.911 1.919-2.151 4.982-.303 6.837a.75.75 0 1 0 1.063-1.058c-1.164-1.168-1.132-3.28.303-4.72l4.848-4.867Z"/><path d="M14.485 9.47a.75.75 0 0 0-1.063 1.06c1.164 1.168 1.133 3.279-.303 4.72l-4.847 4.866c-1.435 1.44-3.533 1.47-4.694.304-1.164-1.168-1.132-3.28.303-4.72l2.424-2.433a.75.75 0 0 0-1.063-1.059l-2.424 2.433c-1.911 1.92-2.151 4.982-.303 6.838 1.85 1.858 4.907 1.615 6.82-.304l4.847-4.867c1.911-1.918 2.151-4.982.303-6.837Z"/>
+                    </g>
+                  </svg>
+                  <a href="#" target="_blank">Live Preview</a></li>
+                <li class="card__link">
+                  <svg viewBox="0 0 20 20" width="20px" height="20px" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10 0c5.52 0 10 4.59 10 10.25 0 4.53-2.86 8.37-6.83 9.73-.51.1-.69-.22-.69-.5l.01-2.8c0-.96-.32-1.58-.68-1.9 2.23-.26 4.57-1.12 4.57-5.06 0-1.12-.39-2.04-1.03-2.75.1-.26.45-1.3-.1-2.72 0 0-.84-.27-2.75 1.05a9.4 9.4 0 0 0-5 0C5.59 3.98 4.75 4.25 4.75 4.25a3.78 3.78 0 0 0-.1 2.72 4.03 4.03 0 0 0-1.03 2.75c0 3.93 2.33 4.8 4.55 5.06-.28.26-.54.71-.63 1.38-.57.26-2.02.71-2.91-.86 0 0-.53-.98-1.53-1.05 0 0-.98-.02-.07.62 0 0 .65.32 1.1 1.5 0 0 .6 1.83 3.38 1.21l.01 1.9c0 .28-.18.6-.68.5A10.23 10.23 0 0 1 0 10.25C0 4.6 4.48 0 10 0" fill="#000" fill-rule="evenodd"/>
+                    </svg>
+                  <a href="#" target="_blank">View Code</a></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="contacts" id="contacts">
+        <img class="contacts__logo" src="img/logo-dark.svg" alt="logo">
+        <div class="contacts__links">
+          <ul class="contacts__contacts">
+            <li><a href="tel:tel">+91 12345 09876</a></li>
+            <li><a href="mailto:mailto">info@example.com</a></li>
+          </ul>
+          <ul class="contacts__socials">
+            <li><a href="#" target="_blank">
+              <svg viewBox="0 0 20 20" width="30px" height="30px" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 0c5.52 0 10 4.59 10 10.25 0 4.53-2.86 8.37-6.83 9.73-.51.1-.69-.22-.69-.5l.01-2.8c0-.96-.32-1.58-.68-1.9 2.23-.26 4.57-1.12 4.57-5.06 0-1.12-.39-2.04-1.03-2.75.1-.26.45-1.3-.1-2.72 0 0-.84-.27-2.75 1.05a9.4 9.4 0 0 0-5 0C5.59 3.98 4.75 4.25 4.75 4.25a3.78 3.78 0 0 0-.1 2.72 4.03 4.03 0 0 0-1.03 2.75c0 3.93 2.33 4.8 4.55 5.06-.28.26-.54.71-.63 1.38-.57.26-2.02.71-2.91-.86 0 0-.53-.98-1.53-1.05 0 0-.98-.02-.07.62 0 0 .65.32 1.1 1.5 0 0 .6 1.83 3.38 1.21l.01 1.9c0 .28-.18.6-.68.5A10.23 10.23 0 0 1 0 10.25C0 4.6 4.48 0 10 0" fill-rule="evenodd"/>
+              </svg>
+            </a>
+            </li>
+            <li><a href="#" target="_blank">
+              <svg width="30px" height="30px" xmlns="http://www.w3.org/2000/svg" viewBox="-143 145 512 512" xml:space="preserve">
+                <path d="M113 145c-141.4 0-256 114.6-256 256s114.6 256 256 256 256-114.6 256-256-114.6-256-256-256zm102.2 216.2c.1 2.2.1 4.5.1 6.8 0 69.5-52.9 149.7-149.7 149.7-29.7 0-57.4-8.7-80.6-23.6 4.1.5 8.3.7 12.6.7 24.6 0 47.3-8.4 65.3-22.5-23-.4-42.5-15.6-49.1-36.5 3.2.6 6.5.9 9.9.9 4.8 0 9.5-.6 13.9-1.9-24.1-4.8-42.2-26.1-42.2-51.6v-.6c7.1 3.9 15.2 6.3 23.8 6.6-14.1-9.4-23.4-25.6-23.4-43.8 0-9.6 2.6-18.7 7.1-26.5 26 31.9 64.7 52.8 108.4 55-.9-3.8-1.4-7.8-1.4-12 0-29 23.6-52.6 52.6-52.6 15.1 0 28.8 6.4 38.4 16.6 12-2.4 23.2-6.7 33.4-12.8-3.9 12.3-12.3 22.6-23.1 29.1 10.6-1.3 20.8-4.1 30.2-8.3-7 10.6-15.9 19.8-26.2 27.3z"/>
+              </svg>
+            </a>
+            </li>
+            <li><a href="#" target="_blank">
+              <svg width="30px" height="30px" xmlns="http://www.w3.org/2000/svg" viewBox="-143 145 512 512" xml:space="preserve">
+                <path d="M113 145c-141.4 0-256 114.6-256 256s114.6 256 256 256 256-114.6 256-256-114.6-256-256-256zM41.4 508.1H-8.5V348.4h49.9v159.7zM15.1 328.4h-.4c-18.1 0-29.8-12.2-29.8-27.7 0-15.8 12.1-27.7 30.5-27.7s29.7 11.9 30.1 27.7c.1 15.4-11.6 27.7-30.4 27.7zM241 508.1h-56.6v-82.6c0-21.6-8.8-36.4-28.3-36.4-14.9 0-23.2 10-27 19.6-1.4 3.4-1.2 8.2-1.2 13.1v86.3H71.8s.7-146.4 0-159.7h56.1v25.1c3.3-11 21.2-26.6 49.8-26.6 35.5 0 63.3 23 63.3 72.4v88.8z"/>
+              </svg>
+            </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <hr />
+    <footer>
+      <ul class="footer__links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#stack">Technologies</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contacts">Contact</a></li>
+      </ul>
+      <p class="sign">
+        Designed and built by <span class="intro_gradient">Pavan MG <span class="text_nograd">with</span> Love <span class="text_nograd">&</span> Coffee</span>
+      </p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
